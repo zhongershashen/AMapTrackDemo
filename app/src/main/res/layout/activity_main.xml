@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:layout_weight="0.3">
+
+        <EditText
+            android:id="@+id/TerminalName"
+            android:layout_width="285dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="请输入工地名称"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/TerminalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/activity_main_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:scrollbars="none">
+
+    </ListView>
+
+</LinearLayout>
